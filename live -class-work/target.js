@@ -3,6 +3,7 @@
 // output [3, 4]
 // Target = 19
 
+let nums = [16, 8, 23, 4, 15];
 function twoSum(nums, target) {
     // Iterate through the array
     for (let i = 0; i < nums.length; i++) {
@@ -21,3 +22,4 @@ function twoSum(nums, target) {
     // If no solution is found, return an empty array
     return [];
 }
+console.log(twoSum(nums,19));
